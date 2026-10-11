@@ -4,7 +4,7 @@ RUN apk add --no-cache unzip
 
 WORKDIR /opt/vazhehchin
 
-COPY vazhehchin-server-1.zip /tmp/server.zip
+COPY vazhehchin-server-v47.zip /tmp/server.zip
 
 RUN unzip -q /tmp/server.zip -d /opt/vazhehchin
 
